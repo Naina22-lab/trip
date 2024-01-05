@@ -1,0 +1,27 @@
+/* Tours.css */
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #090909; /* Text color */
+  padding: 10px; /* Padding around the text */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: #f4f4f4; /* Background color for the container */
+  padding: 20px; /* Padding to separate the content from the container edges */
+}
+
+/* Additional styling for the Tours component if needed */

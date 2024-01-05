@@ -1,0 +1,70 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tour-info {
+  padding: 16px;
+}
+
+.tour-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour-price {
+  color: #333;
+}
+
+.tour-name {
+  margin-top: 8px;
+  font-size: 1.2em;
+  color: #222;
+}
+
+.description {
+  padding: 16px;
+  line-height: 1.6;
+}
+
+.read-more {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.btn-red {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 8px 16px;
+
+  margin: 16px auto 10px; /* Centering vertically and horizontally */
+  display: block; /* Ensures the margin is applied */
+
+  border: none;
+  cursor: pointer;
+  /* margin-top: 16px; */
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-red:hover {
+  background-color: #cc0000;
+}
